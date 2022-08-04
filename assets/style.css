@@ -1,0 +1,65 @@
+
+.banner {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+nav {
+    box-shadow: 0px 30px 20px rgba(0, 0, 0, 0.795);
+}
+
+.pic-chapters {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gridbox-1 {
+    margin-top: 10px;
+    min-height: 15rem;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bag {
+    height: 200px;
+    background: url(https://cdn.pixabay.com/photo/2016/08/08/00/11/bag-1577438_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.wallet {
+    height: 200px;
+    background: url(https://cdn.pixabay.com/photo/2016/05/13/23/13/wallet-1391131_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.shoes {
+    height: 200px;
+    background: url(https://cdn.pixabay.com/photo/2016/03/27/22/16/fashion-1284496_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.pic-chapters-names {
+    margin-top: 130px;
+    padding: 5px;
+}
+
+.component-pic {
+    width: 245px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.gridbox-2 {
+    min-height: 100vh;
+    margin-top: 10px;
+    min-height: 15rem;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 25% 25% 25% 25%;
+}
