@@ -63,3 +63,18 @@ nav {
     gap: 10px;
     grid-template-columns: 25% 25% 25% 25%;
 }
+
+.gridbox-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.text2 {
+    color: rgb(153, 151, 151);
+}
+
+.gridbox-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
