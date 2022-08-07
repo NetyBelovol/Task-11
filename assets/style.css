@@ -20,7 +20,7 @@ nav {
     min-height: 15rem;
     display: grid;
     gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 .bag {
@@ -65,20 +65,136 @@ nav {
     min-height: 15rem;
     display: grid;
     gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
-.gridbox-3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.one-0 {
+    grid-area: one-0;
 }
 
-.text2 {
-    color: rgb(153, 151, 151);
+.one-1 {
+    grid-area: one-1;
+}
+
+.one-2 {
+    grid-area: one-2;
+}
+
+.one-3 {
+    grid-area: one-3;
+}
+
+.one-4 {
+    grid-area: one-4;
+}
+
+.two-0 {
+    grid-area: two-0;
+}
+
+.two-1 {
+    grid-area: two-1;
+}
+
+.two-2 {
+    grid-area: two-2;
+}
+
+.two-3 {
+    grid-area: two-3;
+}
+
+.three-0 {
+    grid-area: three-0;
+}
+
+.three-1 {
+    grid-area: three-1;
+}
+
+.three-2 {
+    grid-area: three-2;
+}
+
+.three-3 {
+    grid-area: three-3;
+}
+
+.three-4 {
+    grid-area: three-4;
+}
+
+.four-0 {
+    grid-area: four-0;
+}
+
+.four-1 {
+    grid-area: four-1;
+}
+
+.four-2 {
+    grid-area: four-2;
+}
+
+.four-3 {
+    grid-area: four-3;
+}
+
+.four-4 {
+    grid-area: four-4;
 }
 
 .gridbox-4 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 10px;
+    text-align: center;
+    grid-template-areas:    "one-0    two-0"
+                            "one-1    two-1"
+                            "one-2    two-2"
+                            "one-3    two-3"
+                            "one-4    ."
+                            "three-0  four-0"
+                            "three-1  four-1"
+                            "three-2  four-2"
+                            "three-3  four-3"
+                            "three-4  four-4";
+    
+}
+
+@media (min-width:992px) {
+ 
+    .gridbox-1 {
+        margin-top: 10px;
+        min-height: 15rem;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .gridbox-2 {
+        min-height: 100vh;
+        margin-top: 10px;
+        min-height: 15rem;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .gridbox-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .gridbox-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+        text-align: left;
+        grid-template-areas:    "one-0    two-0    three-0    four-0"
+                                "one-1    two-1    three-1    four-1"
+                                "one-2    two-2    three-2    four-2"
+                                "one-3    two-3    three-3    four-3"
+                                "one-4    .        three-4    four-4";
+    }
 }
