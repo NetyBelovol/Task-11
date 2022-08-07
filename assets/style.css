@@ -55,13 +55,17 @@ nav {
     object-fit: cover;
 }
 
+.component > img {
+    width: 100%;
+}
+
 .gridbox-2 {
     min-height: 100vh;
     margin-top: 10px;
     min-height: 15rem;
     display: grid;
     gap: 10px;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .gridbox-3 {
